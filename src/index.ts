@@ -9,7 +9,8 @@ const server = createServer(app);
 const io = new Server(server);
 
 const port = Number(process.env.PORT) || 3000;
-const indexPath = path.join(__dirname, "..", "..", "index.html");
+const indexPath = path.join(process.cwd(), "index.html");
+
 
 app.get("/", (_req: Request, res: Response) => {
   res.sendFile(indexPath);
