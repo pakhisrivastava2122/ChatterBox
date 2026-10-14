@@ -1,4 +1,4 @@
-```json
+
 {
   "name": "chatterbox",
   "version": "1.0.0",
@@ -29,4 +29,3 @@
     "typescript": "^5.4.5"
   }
 }
-```
