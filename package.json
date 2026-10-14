@@ -1,16 +1,22 @@
+```json
 {
-  "name": "chat-app-socket.io",
+  "name": "chatterbox",
   "version": "1.0.0",
+  "description": "A real-time chat application built with Node.js, Express, TypeScript, and Socket.IO.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npx tsc",
+    "build": "tsc",
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "chat",
+    "socket.io",
+    "real-time-chat",
+    "typescript"
+  ],
+  "author": "Pakhi Srivastava",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.19.2",
     "socket.io": "^4.7.5"
@@ -23,3 +29,4 @@
     "typescript": "^5.4.5"
   }
 }
+```
