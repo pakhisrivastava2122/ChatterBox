@@ -4,6 +4,12 @@ ChatterBox is a real-time chat application built using **Node.js, Express.js, Ty
 
 The application uses WebSockets through Socket.IO to provide real-time, bidirectional communication between the server and connected clients.
 
+## 🚀 Live Demo
+
+🔗 **Live Website:** https://chatterbox-orfi.onrender.com/
+
+📂 **GitHub Repository:** https://github.com/pakhisrivastava2122/ChatterBox
+
 ## ✨ Features
 
 - ⚡ **Real-Time Messaging:** Send and receive messages instantly.
